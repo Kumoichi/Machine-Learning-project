@@ -44,6 +44,13 @@ Comparison between Simple LinearRegression, PCA, and RandomForestRegressor:
 - Simple LinearRegression achieves a score of 0.9865.
 - PCA achieves a score of 0.9849.
 - RandomForestRegressor achieves the highest score of 0.99754. This indicates that RandomForestRegressor performs exceptionally well in this case, possibly due to its ability to randomly select features from the given set, resulting in improved accuracy.
-  
+
+
+Regulation
+- Method: Lasso
+- Score: 0.9871
+
+Lasso regularization was employed in the analysis, yielding a score of 0.9871. Although it is not the best score achieved, Lasso regularization serves the purpose of preventing overfitting and can be considered a better model for predicting future values accurately.
+
 Please refer to the [project link](https://colab.research.google.com/drive/1t1q-UI9Fb5RSwmEq7xm4K02K_7UKTUh#scrollTo=CvOAAmNm4elI) for more detailed analysis and experimental details.
 

@@ -1,9 +1,3 @@
-# Machine-Learning-project
-
-This pdf explains what I analyse and result of the project.  
-
-[Project README.pdf](https://github.com/Kumoichi/Machine-Learning-project/files/10494901/Project.README.pdf)
-
 # Rice Type Classification Dataset
 
 ## Data Description
@@ -96,5 +90,7 @@ Adding AspectRation:
 
 The PCA analysis shows the variance captured by each dimension when using the specified features. By adding AspectRation as a feature, the importance of the first dimension increases.
 
-Please refer to the [project link](https://colab.research.google.com/drive/1t1q-UI9Fb5RSwmEq7xm4K02K_7UKTUh#scrollTo=CvOAAmNm4elI) for more detailed analysis and experimental details.
+Please refer to the my code for more detailed analysis and experimental details.
+
+
 

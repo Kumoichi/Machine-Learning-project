@@ -90,7 +90,7 @@ Adding AspectRation:
 
 The PCA analysis shows the variance captured by each dimension when using the specified features. By adding AspectRation as a feature, the importance of the first dimension increases.
 
-Please refer to the my code for more detailed analysis and experimental details.
+Please refer to https://github.com/Kumoichi/Machine-Learning-project/blob/main/Project.ipynb for more detailed analysis and experimental details.
 
 
 

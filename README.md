@@ -52,5 +52,29 @@ Regulation
 
 Lasso regularization was employed in the analysis, yielding a score of 0.9871. Although it is not the best score achieved, Lasso regularization serves the purpose of preventing overfitting and can be considered a better model for predicting future values accurately.
 
+# Classification Results
+
+In this classification analysis, the dataset was divided into features (X) and the target class (Y). The specific configurations used for each classification method are outlined below.
+
+## Method and Results
+
+### Classification with K-Nearest Neighbors (KNN)
+- X = Extent, Eccentricity
+- Y = Class (Jasmin or Gonen)
+- Accuracy: 0.9587
+
+### Classification with Logistic Regression
+- X = Extent, Eccentricity
+- Y = Class (Jasmin or Gonen)
+- Accuracy: 0.9583
+
+### Classification with Support Vector Machines (SVM)
+- X = Extent, Eccentricity
+- Y = Class (Jasmin or Gonen)
+- Accuracy: 0.9598
+
+The above results indicate that KNN, Logistic Regression, and SVM achieved similar accuracy in classifying the dataset based on the given features. The classification is performed to distinguish between the classes Jasmin and Gonen.
+
+
 Please refer to the [project link](https://colab.research.google.com/drive/1t1q-UI9Fb5RSwmEq7xm4K02K_7UKTUh#scrollTo=CvOAAmNm4elI) for more detailed analysis and experimental details.
 

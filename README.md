@@ -26,7 +26,7 @@ This dataset contains data for classifying rice into two types: Jasmine and Gone
 ## Results & Analysis
 
 ### Regression
-- Correlation: ConvexArea and MajorAxisLength exhibit some correlation.
+Correlation: ConvexArea and MajorAxisLength exhibit some correlation.
 - Simple LinearRegression Score: 0.3616
 - Simple LinearRegression with Additional Features: By adding Area, MajorAxisLength, EquivDiameter, Extent, Roundness, and AspectRation, the score improves to 0.9865. These features contribute significantly to the improved score.
 

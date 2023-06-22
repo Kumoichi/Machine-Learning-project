@@ -75,6 +75,26 @@ In this classification analysis, the dataset was divided into features (X) and t
 
 The above results indicate that KNN, Logistic Regression, and SVM achieved similar accuracy in classifying the dataset based on the given features. The classification is performed to distinguish between the classes Jasmin and Gonen.
 
+## Cross Validation
+- X = Extent, Eccentricity
+- Y = Class (Jasmin or Gonen)
+- Accuracy: 0.9584
+
+Cross validation was used to evaluate the model's performance and prevent overfitting. By utilizing cross validation, the model demonstrates good accuracy in predicting unknown future values.
+
+## PCA (Principal Component Analysis)
+- X = Extent, Eccentricity
+- Y = Class (Jasmin or Gonen)
+- First Dimension Variance: 93.02%
+- Second Dimension Variance: 6.97%
+
+Adding AspectRation:
+- X = Extent, AspectRation, Eccentricity
+- Y = Class (Jasmin or Gonen)
+- First Dimension Variance: 95.23%
+- Second Dimension Variance: 4.72%
+
+The PCA analysis shows the variance captured by each dimension when using the specified features. By adding AspectRation as a feature, the importance of the first dimension increases.
 
 Please refer to the [project link](https://colab.research.google.com/drive/1t1q-UI9Fb5RSwmEq7xm4K02K_7UKTUh#scrollTo=CvOAAmNm4elI) for more detailed analysis and experimental details.
 

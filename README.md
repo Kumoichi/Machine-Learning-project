@@ -58,31 +58,31 @@ In this classification analysis, the dataset was divided into features (X) and t
 
 ## Method and Results
 
-### Classification with K-Nearest Neighbors (KNN)
+Classification with K-Nearest Neighbors (KNN)
 - X = Extent, Eccentricity
 - Y = Class (Jasmin or Gonen)
 - Accuracy: 0.9587
 
-### Classification with Logistic Regression
+Classification with Logistic Regression
 - X = Extent, Eccentricity
 - Y = Class (Jasmin or Gonen)
 - Accuracy: 0.9583
 
-### Classification with Support Vector Machines (SVM)
+Classification with Support Vector Machines (SVM)
 - X = Extent, Eccentricity
 - Y = Class (Jasmin or Gonen)
 - Accuracy: 0.9598
 
 The above results indicate that KNN, Logistic Regression, and SVM achieved similar accuracy in classifying the dataset based on the given features. The classification is performed to distinguish between the classes Jasmin and Gonen.
 
-## Cross Validation
+Cross Validation
 - X = Extent, Eccentricity
 - Y = Class (Jasmin or Gonen)
 - Accuracy: 0.9584
 
 Cross validation was used to evaluate the model's performance and prevent overfitting. By utilizing cross validation, the model demonstrates good accuracy in predicting unknown future values.
 
-## PCA (Principal Component Analysis)
+PCA (Principal Component Analysis)
 - X = Extent, Eccentricity
 - Y = Class (Jasmin or Gonen)
 - First Dimension Variance: 93.02%

@@ -24,12 +24,17 @@ This dataset contains data for classifying rice into two types: Jasmine and Gone
 - Experimental Methods: Hypotheses, regression and classification methods used.
 
 ## Results & Analysis
-- Regression Results: Correlations, scores, and comparisons between different regression methods.
-- Decision Tree: Analysis and insights from the decision tree model.
-- Regulation: Lasso regulation results and purpose.
-- Classification Results: Accuracy scores from different classification methods.
-- Cross Validation: Importance and accuracy of cross validation in classification.
-- PCA: Variance explained and impact of additional features on dimension importance.
+
+### Regression
+- Correlation: ConvexArea and MajorAxisLength exhibit some correlation.
+- Simple LinearRegression Score: 0.3616
+- Simple LinearRegression with Additional Features: By adding Area, MajorAxisLength, EquivDiameter, Extent, Roundness, and AspectRation, the score improves to 0.9865. These features contribute significantly to the improved score.
+
+Comparison between Simple LinearRegression and RandomForestRegressor:
+- X = MajorAxisLength, Y = ConvexArea
+  - Simple LinearRegression Score: 0.3616
+  - RandomForestRegressor Score: 0.0729
+  - RandomForestRegressor performs worse due to having only one feature (X). Although RandomForestRegressor usually provides better results, it doesn't perform well when there is only one feature. This is the reason for the lower score obtained with RandomForestRegressor.
 
 Please refer to the [project link](https://colab.research.google.com/drive/1t1q-UI9Fb5RSwmEq7xm4K02K_7UKTUh#scrollTo=CvOAAmNm4elI) for more detailed analysis and experimental details.
 

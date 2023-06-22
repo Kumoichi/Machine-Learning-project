@@ -36,5 +36,14 @@ Comparison between Simple LinearRegression and RandomForestRegressor:
   - RandomForestRegressor Score: 0.0729
   - RandomForestRegressor performs worse due to having only one feature (X). Although RandomForestRegressor usually provides better results, it doesn't perform well when there is only one feature. This is the reason for the lower score obtained with RandomForestRegressor.
 
+
+Comparison between Simple LinearRegression, PCA, and RandomForestRegressor:
+- X = Area, MajorAxisLength, EquivDiameter, Extent, Roundness, AspectRation
+- Y = ConvexArea
+
+- Simple LinearRegression achieves a score of 0.9865.
+- PCA achieves a score of 0.9849.
+- RandomForestRegressor achieves the highest score of 0.99754. This indicates that RandomForestRegressor performs exceptionally well in this case, possibly due to its ability to randomly select features from the given set, resulting in improved accuracy.
+  
 Please refer to the [project link](https://colab.research.google.com/drive/1t1q-UI9Fb5RSwmEq7xm4K02K_7UKTUh#scrollTo=CvOAAmNm4elI) for more detailed analysis and experimental details.
 
